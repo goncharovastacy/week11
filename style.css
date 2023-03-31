@@ -1,0 +1,65 @@
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.card {
+    margin-top: 10px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px rgb(153, 153, 153);
+}
+
+.card__info {
+    display: flex;
+    gap: 20px;
+}
+
+h5 {
+    max-width: 400px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card__price {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 120px;
+}
+
+.weight,
+.quantity {
+    margin-top: 20px;
+    color: rgb(109, 109, 109);
+}
+
+.sum {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    background-color: rgba(135, 170, 75, 0.691);
+    border: none;
+    border-radius: 10px;
+}
+
+.sum__text {
+    font-size: 30px;
+}
